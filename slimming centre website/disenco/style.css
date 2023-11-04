@@ -1,0 +1,142 @@
+body {
+    background-color: darkgray;
+}
+.design {
+    border-bottom: 1px solid gray;
+}
+.designani {
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.navi {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+.navi ul li {
+    height: 50px;
+    width:100px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.navi a {
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 5px;
+}
+.navi a:hover {
+    background-color: gray;
+}
+
+main {
+    background-image:url(img/back.png);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment:fixed;
+}
+
+
+.infopart {
+    color: whitesmoke;
+}
+.infopart a {
+    color: white;
+}
+.infopart a:hover {
+    color: gray;
+}
+.infopart .johanspic {
+    background-image: url('img/cv/johan.jpg');
+    height: 280px;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.experi {
+    text-align: center;
+    color: aliceblue;
+}
+
+.skills {
+    color: whitesmoke;
+    text-align: center;
+}
+
+footer {
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+
+.open-button {
+    background-color: rgb(67, 151, 207);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+    border-radius: 5px;
+  }
+  
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
